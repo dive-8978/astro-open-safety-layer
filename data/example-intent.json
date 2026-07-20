@@ -1,0 +1,26 @@
+{
+  "version": "aoi.intent/0.1",
+  "id": "example-transfer-001",
+  "actor": {
+    "id": "did:pkh:eip155:8453:0x1111111111111111111111111111111111111111",
+    "type": "human"
+  },
+  "actions": [
+    {
+      "kind": "transfer",
+      "chain": "eip155:8453",
+      "from": "0x1111111111111111111111111111111111111111",
+      "to": "0x2222222222222222222222222222222222222222",
+      "value": "1",
+      "data": "0x",
+      "asset": "eip155:8453/slip44:60"
+    }
+  ],
+  "constraints": {
+    "deadline": "2030-01-01T00:00:00.000Z",
+    "maxTotalValue": "2",
+    "requireSimulation": true
+  },
+  "nonce": "example-nonce-001",
+  "issuedAt": "2026-07-20T00:00:00.000Z"
+}
